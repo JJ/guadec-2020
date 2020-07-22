@@ -2,8 +2,7 @@
  * Solarized Light theme for reveal.js.
  * Author: Achim Staebler
  */
-@import url(fonts/league-gothic/league-gothic.css);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans&family=Red+Rose&family=Roboto+Slab&display=swap');
 /**
  * Solarized colors by Ethan Schoonover
  */
@@ -43,8 +42,8 @@ html * {
   background-color: #fdf6e3; }
 
 .reveal {
-  font-family: "Lato", sans-serif;
-  font-size: 40px;
+   font-family: 'Roboto Slab', serif;
+  font-size: 36px;
   font-weight: normal;
   color: #657b83; }
 
@@ -74,7 +73,7 @@ html * {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #586e75;
-  font-family: "League Gothic", Impact, sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
@@ -82,7 +81,8 @@ html * {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 3.77em; }
+  font-family: 'Red Rose', cursive;  
+  font-size: 3.25em; }
 
 .reveal h2 {
   font-size: 2.11em; }
@@ -172,14 +172,14 @@ html * {
   width: 90%;
   margin: 20px auto;
   text-align: left;
-  font-size: 0.55em;
+  font-size: 0.75em;
   font-family: monospace;
   line-height: 1.2em;
   word-wrap: break-word;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15); }
 
 .reveal code {
-  font-family: monospace;
+  font-family: "DM mono", monospace;
   text-transform: none; }
 
 .reveal pre code {
