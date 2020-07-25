@@ -37,13 +37,13 @@
 
 	<section data-background='https://live.staticflickr.com/7186/6790112394_2a31493745_o_d.jpg'><h3>We need to make learning programming</h3>
 	  <h1 class='fragment'>fun</h1>
-	  <h1 class='fragment'>relevant</h1>
+	  <h1 class='fragment'>& relevant</h1>
 	  <aside class='notes'>Unlike this guy, with a last-generation tablet he's not having fun at all. I have been teaching for 32 years (plus gigs) and I've gone through all phases, from CS101 to master-level classes. I've seen what students have learned, and what they have not learned. And also put in practice what I preach, mainly in graduate-level cloud computing classes.</aside>
 	</section>
 
 	<section>
 	  <section data-background='https://live.staticflickr.com/4764/40466505841_90e4aea36c_k_d.jpg'>
-	    <h1>Concepts and patterns over syntax.</h1>
+	    <h1>① Concepts and patterns over syntax.</h1>
 	    <aside class='notes'>Programming concepts are more important than their implementation in specific languages. All languages have literals, decisions, a way to iterate... Patterns might also be the same, and they repeat themselves in syntax. There'r only so many ways to enclose a block, or to write a literal string</aside>
 	  </section>
 
@@ -79,30 +79,30 @@ void main( int argc, char argv[] ) {
 	  </section>
 	</section>
 	
-	<section><h1>Many over one</h1>
+	<section><h1>② Many over one</h1>
 	  <img src='img/map.png' alt='Map in Raku and Haskell'>
 	  <aside class='notes'>any languages over one language, many paradigms over one paradigm. This is object-oriented and functional. Underlying concepts are different, but it's clearly a map, an important concept. Additionally, another important concept here: lambdas, which are very modern and don't have an unified syntax, but still an important concept to learn.</aside>
 	</section>
 	
 	<section data-background='https://live.staticflickr.com/4096/4919142987_f4f1eda66e_k_d.jpg'>
-	  <h1>Practical over theoretical.</h1>
+	  <h1>③ Practical over theoretical.</h1>
 	  <aside class='notes'>What is a map? You can explain to hell and beyond what it's about, and still not understand it until you put it to work in practice. When should you use a map, when a loop? </aside>
 	</section>
 	
 	<section data-background='https://live.staticflickr.com/4886/45162921155_f29aaf052e_k_d.jpg'>
-	  <h1>MVP over "exercises", "written exams" and "problems".
+	  <h1>④ MVP over "exercises", "written exams" and "problems".
 	  </h1>
 	  <aside class='notes'>It's admittedly difficult to create a minimally viable "product" if all you have are literals, but well, literals can be complicated too. Lambdas are literal, for instance. Anyway, if you want to learn to cook, you cook. Maybe you have to throw into the waste bin a bit, but you need to create a MVP if you really want to check your skills. Nowadays online tools, REPLs and home-made tools make easy to check MVPs, from literals to expressions. Also it's important that you do, and fail, because you need to...</aside>
 	</section>
 	
 	<section>
-	  <h2>Understand, not avoid, errors</h2>
+	  <h2>⑤ Understand, not avoid, errors</h2>
 	  <img src='img/error.jpg'>
 	  <aside class='notes'>When you work with different languages, it's unavoidable that errors show up. You need to look at them, and interpret them, to find what's wrong with the syntax. Errors feel literally wrong, but also they make people feel bad, because they thing they're stupid and are not following instructions correctly. Errors are simply part of the learning process. This image is quite usual in my cloud computing class. When something is wrong, students are not used to look at the error, interpret it and make it right; they simply think they don't know how to do something. That's bad, and wrong, and is a hurdle for learning. </aside>
 	</section>
 	
 	<section>
-	<section><h1>Evaluation-as-code review</h1>
+	<section><h1>⑥ Evaluation-as-code review</h1>
 <h2 class='fragment' >» evaluation-as-grading. </h2>
 <aside class='notes'>You are writing code, it should be evaluated the way it normally is. Use automatic or manual code review tools to check out the code the student has written. When teaching, every chance has to be leveraged for the learning process. using code reviews to help student learn something is similar to a enterprise programming process, but also makes learning easier. </aside>
 	</section>
@@ -114,12 +114,13 @@ void main( int argc, char argv[] ) {
 
 	<section>
 	  <section>
-	    <h1>Content ⪮ Code specs</h1>
+	    <h1>⑦ Content ⪮ Code specs</h1>
 	    <aside class='notes'>It should be clear enough to anyone what's expected from the student, so that it can be expressed in code</aside>
 	  </section>
 
-	  <section><h1>Grading-as-CI</h1>
-	    <pre><code></code></pre>
+	  <section data-background='https://live.staticflickr.com/65535/49684095662_9ba0a7755d_k_d.jpg'>
+	    <h1>Grading-as-CI</h1>
+	    <aside class='notes'>Since you help with code reviews, it makes sense that eventually there are tests to pass, that will tell whoever is learning if it's OK or not.</aside>
 	  </section>
 
 	  <section><pre><code>name: "Comprueba hitos y milestones"
@@ -148,7 +149,7 @@ jobs:
 	</section>
 	
 	<section data-background='https://www.flickr.com/photos/atalaya/49709811942/sizes/l/'>
-	  <h1>DevOps over compile-and-forget.</h1>
+	  <h1>⑧ DevOps over compile-and-forget.</h1>
 
 	  <aside class='notes'>It's important to show there's a lifecycle involved in software; it's continuous improvement, security conscious, bug fixing.</aside>
 	</section>
